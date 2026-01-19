@@ -3,16 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="personaal-profile.css">
     <title>Home</title>
 </head>
 <body>
     <!-- hero section -->
-    <header>
-        <h1>My Dashboard, welcome!</h1>
-        <p>My name is Oladejo Kehinde. lorWelcome, and allow me to walk you through my page. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi in, perferendis rem aut dicta ut nobis doloribus? Itaque cupiditate quasi sunt ut nam ex vitae ducimus mollitia culpa, inventore vel!</p>
-       
-        <a href="#sections">Jump to today's tasks</a>
 
+    <!-- NAvigation bar -->
+    <header>
         <nav>
             <ul>
                 <li><a href="home.html">Home</a></li> 
@@ -21,34 +19,50 @@
                 <li><a href="contacts.html">Contacts</a></li>
             </ul>
         </nav>
-        
+
+        <h1>My <span>Dashboard</span>, welcome!</h1>
+        <img src="images/welcome-image.svg" alt="welcome">
+        <p>
+            Welcome to my personal dashboard. This page helps me keep track
+            of my daily tasks, progress, and learning goals as I grow as a frontend developer.
+        </p>
+        <a href="#sections">Jump to today's tasks</a>
+
     </header>
 
+    <!-- main sections -->
     <main>
         <section id="sections">
-            <section>
-                <h2>Today's summary</h2>
+            <h2>Today's overview</h2>
+            <div class="card">
+                <h3>Today's summary</h3>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum a officiis sequi exercitationem doloremque maxime, officia recusandae, voluptate sit nisi aliquid dolor libero cumque facilis delectus ad laboriosam eveniet! In?
-                    Libero laborum mollitia qui similique officiis harum iusto explicabo sapiente distinctio! Deserunt nobis expedita minima quo aut eligendi cumque commodi dicta, a possimus illum repellendus omnis quae, asperiores quos magni.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum a officiis sequi exercitationem doloremque maximeasperiores quos magni.
                 </p>
-
-            </section>
-            <section>
+                <img src="images/summary.svg" alt="key-points image">
+            </div>
+            <div class="card">
                 <h3>Tasks today</h3>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum minima officia, consequuntur dolor tempore ab magni optio quod itaque, dicta odio expedita. In excepturi natus voluptatibus neque molestiae rerum numquam.
-                Natus amet inventore nostrum consequuntur cum nesciunt nam dolore, fugit voluptas voluptate corrupti rem non. Nihil repellat cumque dolor unde dolorum error quaerat saepe soluta quas facere? Facere, ab eius?</p>
-            </section>
-            <section>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum minima officia, consequuntur dolor tempore ab magni optio quod itaque, dicta odio expedita. In excepturi natus voluptatibus neque molestiae rerum numquam.
+                    Nihil repellat cumque dolor unde dolorum eius.
+                </p>
+                 <img src="images/summary.svg" alt="key-points image">
+            </div>
+            <div class="card">
                 <h3>Tasks Completed</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio possimus obcaecati sapiente quas velit, tenetur aliquid incidunt assumenda corrupti blanditiis culpa. Debitis expedita quos, velit maxime eveniet soluta eius nisi? </p>
-                
-            </section>
-            <section>
+                <img src="images/completed-task.svg" alt="completed-task-image">
+            </div>
+            <div class="">
                 <h3>Pending tasks</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, qui culpa ab hic officiis illum nihil facere nisi non minima recusandae quod est, eius at. Accusamus officiis quibusdam in quam.</p>
-                <a href="goals.html">Check out my roadmap</a>
-            </section>
+                <ul>
+                    <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+                    <li>Enim eaque assumenda, facere repellendus neque veniam voluptatibus cumque. </li>
+                    <li>quod veritatis pariatur eveniet nemo vel voluptates ipsa.</li>
+                </ul>
+                <img src="images/pending.svg" alt="pending-task-image">
+            </div>
 
         </section>
     </main>
