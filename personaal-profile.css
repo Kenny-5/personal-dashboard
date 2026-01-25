@@ -122,8 +122,13 @@ ul{
 
 .nav-bar{
     margin-bottom: 15rem;
+    
 }
-
+.header-list{
+    display: flex;
+    gap: 2rem;
+    justify-content:flex-end;
+}
 .highlight{
     background-color: #FF9F8A ;
     padding: 0.6rem 1.2rem;
